@@ -23,6 +23,9 @@
     },
     "api-interfaces": {
       "tags": []
+    },
+    "yip": {
+      "tags": []
     }
   }
 }

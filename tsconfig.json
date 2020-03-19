@@ -15,8 +15,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
+    "angularCompilerOptions": {
+      "enableIvy": false
+    },
     "paths": {
-      "@wolfcafe/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@wolfcafe/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@wolfcafe/yip": ["libs/yip/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

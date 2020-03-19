@@ -27,7 +27,7 @@
     "help": "nx help",
     "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@nrwl/angular": "9.1.2",
     "@angular/animations": "9.0.0",
@@ -40,6 +40,7 @@
     "@angular/router": "9.0.0",
     "core-js": "^2.5.4",
     "rxjs": "~6.5.0",
+    "tslib": "^1.10.0",
     "zone.js": "^0.10.2",
     "@nestjs/common": "^6.8.3",
     "@nestjs/core": "^6.8.3",
@@ -47,10 +48,12 @@
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
+    "@angular-devkit/build-ng-packagr": "~0.900.6",
     "@angular/cli": "9.0.1",
     "@nrwl/workspace": "9.1.2",
     "@types/node": "~8.9.4",
     "dotenv": "6.2.0",
+    "ng-packagr": "^9.0.0",
     "ts-node": "~7.0.0",
     "tslint": "~6.0.0",
     "eslint": "6.8.0",
